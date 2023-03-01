@@ -3,7 +3,7 @@
 /**
  * leet - encode a string into 1337
  * @s: string
- * Return: to string s
+ * Return: to string 's'
  */
 
 char *leet(char *s)
@@ -23,5 +23,6 @@ char *leet(char *s)
 		while (s[i] == 'l' || s[i] == 'L')
 			s[i] = '1';
 	}
+
 	return (s);
 }
